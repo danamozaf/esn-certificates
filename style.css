@@ -1,0 +1,46 @@
+@page {
+    size: A4;
+    margin: 0;
+    }
+@media print {
+    html, body {
+    width: 210mm;
+    height: 297mm;
+}
+
+.content {
+    width: 1240 ;                                 /*variable*/
+    height: 1754;                                 /*variable*/
+    background-color: powderblue;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    position:relative !important; 
+    }
+    .border1{
+        height: 8em;       /*variable*/
+        width: 100%;
+        background: linear-gradient(to right, red, #cf0009);
+
+    }
+.border2{width: 1240;}                            /*variable*/
+.texte-content{margin: 3em;}
+.title_box{text-align: center}
+.title_box p:first-child{font-size: 4em; font-weight: 700}
+.title_box p:nth-child(2){font-size: 2em; margin-top:-2em}
+.title_box p:nth-child(3){font-size: 3em; margin-top:-.5em; font-weight: 700}
+.title_box p:nth-child(4){font-size: 2em; margin-top:-1.3em; font-weight: 700}
+
+.signatures {width: 60%; margin-left: 20%; margin-right: 20%; border-top:solid 1px; padding-top:2em}
+.signatures info {float:right;width:70%; padding: 0 2%}
+.signatures .logo {float:right;width:25%; height: 6em}
+
+.signatures{font-size:1.2em}
+
+.task_description {width: 78%; background-color: cornsilk; display: flow-root; top: 2em; position: relative; padding: 2em 4em; margin-left: auto; margin-right: auto; position: relative}
+
+.task_description ul{border-bottom: 1px solid black; padding-bottom: 1em;}
+
+.footer {width: 58%; margin-left: auto; margin-right: 4em; position: relative; margin-top: 4em}
+.footer p:first-child{font-weight: bold}
+.footer info {float:right;width:70%; padding: 0 2%}
+.footer .logo {float:right;width:25%; height: 6em}
