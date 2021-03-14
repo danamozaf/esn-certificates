@@ -19,7 +19,6 @@
     }
     .border1{
       position: absolute;
-        height: 8em;       /*variable*/
         width: 90%;
         margin-left:5%;
         margin-top: 2%;
@@ -28,19 +27,20 @@
 
     }
 .border1 p{color:white}
-.border1 p:first-child{padding: 1em 0 0 2em}
-.border1 p:nth-child(2){padding-left:2em}
+.border1 .header p:first-child{padding: 1em 0 0 2em}
+.border1 .header p:nth-child(2){padding-left:2em}
 .border1 img{height:6em; float:right; padding: 0 2em 0 0; margin-top: -5em}
 .border2{width: 1240;}                            /*variable*/
-.ajuster{height:7%; weight: 100%}
+.ajuster{height:27%; weight: 100%}
 .texte-content{margin: 3em;}
-.title_box{text-align: center}
-.title_box p:first-child{font-size: 4em; font-weight: 700}
+.title_box{text-align: center;}
+.trait_blanc{margin-top: 31px; position: absolute; width:94%; left: 2em; height:1px; background-color:white}
+.title_box p:first-child{margin-top: 1.5em; font-size: 4em; font-weight: 700}
 .title_box p:nth-child(2){font-size: 2em; margin-top:-2em}
 .title_box p:nth-child(3){font-size: 3em; margin-top:-.5em; font-weight: 700}
-.title_box p:nth-child(4){font-size: 2em; margin-top:-1.3em; font-weight: 700}
+.title_box p:nth-child(4){margin-bottom: 2.5em; font-size: 2em; margin-top:-1.3em; font-weight: 700}
 
-.signatures {width: 60%; margin-left: 20%; margin-right: 20%; border-top:solid 1px; padding-top:2em}
+.signatures {width: 60%; margin-left: 20%; margin-right: 20%;}
 .signatures info {float:right;width:55%; padding: 0 8%}
 .signatures info p:first-child {margin-top:0 !important; font-weight:bold}
 .signatures info p:nth-child(2) {margin-top: -10px !important}
@@ -50,9 +50,10 @@
 .signatures{font-size:1.2em}
 
 .task_description {color: #6A6A6A; width: 78%; background-color: #EEEEEE; display: flow-root; top: 2em; position: relative; padding: 2em 4em; margin-left: auto; margin-right: auto; position: relative}
-.task_description ul{border-bottom: 1px solid black; padding-bottom: 1em;}
+.task_description ul{border-bottom: 1px solid #6A6A6A; padding-bottom: 1em;}
 
-.footer {width: 58%; left: auto;right: 4em; position: relative; margin-top: 4em; position: fixed; bottom: 5%}
+
+.footer {width: 58%; left: 8em; position: relative; margin-top: 4em; position: fixed; bottom: 5%}
 .footer p:first-child{font-weight: bold; margin-top: 0px !important}
 .footer info {float:right;width:60%; padding: 0 2%}
 .footer .logo {float:right;width:35%}
