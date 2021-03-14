@@ -14,7 +14,7 @@
     height: 1660;                                 /*variable*/
     /*background-color: powderblue; */
     font-family: 'Lato', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.85em;
     position:relative !important; 
     }
     .border1{
@@ -32,7 +32,7 @@
 .border1 p:nth-child(2){padding-left:2em}
 .border1 img{height:6em; float:right; padding: 0 2em 0 0; margin-top: -5em}
 .border2{width: 1240;}                            /*variable*/
-.ajuster{height:10%; weight: 100%}
+.ajuster{height:7%; weight: 100%}
 .texte-content{margin: 3em;}
 .title_box{text-align: center}
 .title_box p:first-child{font-size: 4em; font-weight: 700}
@@ -45,12 +45,11 @@
 .signatures info p:first-child {margin-top:0 !important; font-weight:bold}
 .signatures info p:nth-child(2) {margin-top: -10px !important}
 .signatures .logo {float:right;width:25%}
-.signatures .trait {height:1px; width:100%; background-color: black; margin: 2em 0 1em 0}
+.signatures .trait {height:1px; width:100%; background-color: black; margin: 4em 0 2em 0}
 
 .signatures{font-size:1.2em}
 
-.task_description {width: 78%; background-color: #FCE0C9; display: flow-root; top: 2em; position: relative; padding: 2em 4em; margin-left: auto; margin-right: auto; position: relative}
-
+.task_description {color: #6A6A6A; width: 78%; background-color: #EEEEEE; display: flow-root; top: 2em; position: relative; padding: 2em 4em; margin-left: auto; margin-right: auto; position: relative}
 .task_description ul{border-bottom: 1px solid black; padding-bottom: 1em;}
 
 .footer {width: 58%; left: auto;right: 4em; position: relative; margin-top: 4em; position: fixed; bottom: 5%}
